@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 
 export const NavBarContent = styled.nav`
-  background: #F71755;
+  background: #FFF;
   display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #e2e2ee;
 
   img{
-    height: 150px;
+    height: 45px;
     width: auto;
   }
 

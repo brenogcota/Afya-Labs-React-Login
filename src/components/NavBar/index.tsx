@@ -9,7 +9,7 @@ const NavBar: React.FC = () => {
   return(
     <NavBarContent>
       <Link to="/">
-        <img src={LogoAfya} alt="Logo Afya" />
+        <img src="https://s3-sa-east-1.amazonaws.com/afya.static/image/logos/afya-logo-description-pink.svg" alt="Logo Afya" />
       </Link>
       <div className="links-content">
         <Link to="/"> Home </Link>

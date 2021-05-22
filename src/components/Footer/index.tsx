@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { FooterContainer } from './style'
+
 const Footer: React.FC = () => {
   return(
-    <footer>
-      <p>Rodapé</p>
-    </footer>
+    <FooterContainer>
+      <img src="https://s3-sa-east-1.amazonaws.com/afya.static/image/logos/afya-logo-description-pink.svg"/>
+    </FooterContainer>
   )
 }
 
